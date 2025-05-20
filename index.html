@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>KKPP Server - Official Site</title>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@600&family=Roboto&display=swap" rel="stylesheet">
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Roboto', sans-serif;
+      background: linear-gradient(to bottom, #120202, #2d0000);
+      color: #fdfdfd;
+      background-image: url("/KKPP/BG1.png");
+      background-size: cover;
+      background-position: center;
+      background-attachment: fixed;
+    }
+
+    .overlay {
+      background-color: rgba(0, 0, 0, 0.8);
+      padding: 60px 20px;
+      min-height: 100vh;
+    }
+
+    .hero {
+      text-align: center;
+      margin-bottom: 60px;
+    }
+
+    .hero h1 {
+      font-family: 'Orbitron', sans-serif;
+      font-size: 3em;
+      color: #ff3c3c;
+      text-shadow: 0 0 25px #ff0000;
+      margin-bottom: 10px;
+      animation: glow 2s infinite alternate;
+    }
+
+    @keyframes glow {
+      0% { text-shadow: 0 0 10px #ff0000; }
+      100% { text-shadow: 0 0 30px #ff3333; }
+    }
+
+    .hero p {
+      font-size: 1.2em;
+      color: #ddd;
+    }
+
+    .hero img {
+      height: 100px;
+      margin-top: 20px;
+    }
+
+    .section {
+      max-width: 1000px;
+      margin: 40px auto;
+      background: rgba(255, 255, 255, 0.05);
+      padding: 30px;
+      border-radius: 12px;
+      box-shadow: 0 0 20px rgba(255, 50, 50, 0.3);
+      transition: 0.3s;
+    }
+
+    .section h2 {
+      font-family: 'Orbitron', sans-serif;
+      color: #ffffff;
+      margin-bottom: 20px;
+    }
+
+    .section h3 {
+      font-family: 'Orbitron', sans-serif;
+      color: #f88989;
+      margin-top: 20px;
+    }
+
+    .section h4 {
+      font-family: 'Orbitron', sans-serif;
+      color: #f2f2f2;
+      font-weight: 400;
+      margin-top: 5px;
+      padding-left: 10px;
+    }
+
+    .section a {
+      color: #ffdada;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .section a:hover {
+      text-decoration: underline;
+      color: #ffffff;
+    }
+
+    #scrollTopBtn {
+        position: fixed;
+        bottom: 30px;
+        right: 30px;
+        z-index: 100;
+        background-color: #ff3333;
+        color: white;
+        border: none;
+        padding: 12px 16px;
+        border-radius: 50%;
+        cursor: pointer;
+        box-shadow: 0 0 15px rgba(255, 0, 0, 0.5);
+        opacity: 0;
+        pointer-events: none;
+        transition: opacity 0.4s ease, transform 0.3s;
+    }
+
+    #scrollTopBtn.visible {
+        opacity: 1;
+        pointer-events: auto;
+    }
+
+    #scrollTopBtn:hover {
+        background-color: #ff6666;
+        transform: scale(1.1);
+    }
+
+
+    @media (max-width: 768px) {
+      .hero h1 {
+        font-size: 2.2em;
+      }
+
+      .section {
+        padding: 20px;
+      }
+    }
+    .watermark {
+        position: fixed;
+        bottom: 10px;
+        right: 10px;
+        font-size: 14px;
+        color: rgb(0, 0, 0);
+        font-family: 'Orbitron', sans-serif;
+        pointer-events: none;
+        z-index: 9999;
+        user-select: none;
+    }
+  </style>
+</head>
+<body>
+  <div class="overlay">
+    <div class="hero">
+      <h1>KITTIYA KITTI POYA POYI</h1>
+      <p>Kerala’s Ultimate FiveM Battleground</p>
+      <img src="/KKPP/Untitled-1_1.png" alt="KKPP Logo">
+    </div>
+
+    <div class="section">
+      <h2>About Us</h2>
+      <h3>"KKPP OFFICIAL PVP SERVER" is a FiveM server based in Kerala, India, offering a unique player versus player (PVP) experience within the virtual world of Grand Theft Auto V. The server is likely tailored to cater to gamers who enjoy intense combat scenarios, where players can engage in thrilling battles against each other in various settings across the game's map.
+      <br><br></h3>
+      <h3 style="color:#ffffff">Given its name, it's probable that "KKPP" stands for something specific to the server's community or administration, perhaps an abbreviation for a gaming group or community. The server's focus on PVP suggests that it provides an environment where players can test their skills against each other, whether through organized events, spontaneous encounters, or structured game modes.
+      <br><br></h3>
+      <h3>Being based in Kerala, the server might have a community predominantly comprised of players from the region, fostering a sense of local camaraderie and connection among its members. This localization could also influence the server's culture, events, and possibly even in-game elements such as language preferences or cultural references.
+      <br><br></h3>
+      <h3 style="color:#ffffff">In terms of gameplay, the server likely offers a variety of PVP modes and activities, such as team deathmatches, capture the flag, free-for-all battles, and possibly custom game modes unique to the server. Players may also have access to a range of weapons, vehicles, and equipment to use in combat, allowing for diverse and dynamic gameplay experiences.
+      <br><br></h3>
+      <h3>Overall, "KKPP OFFICIAL PVP SERVER" seems to provide a platform for players to immerse themselves in adrenaline-pumping PVP action set in the familiar world of GTA V, with a focus on fostering a vibrant gaming community centered around competitive gameplay and shared experiences.
+      </h3>
+    </div>
+
+    <div class="section">
+      <h2>Discord Rules</h2>
+      <h3>Respectful Conduct</h3>
+      <h4>Treat all members respectfully; no harassment or offensive behavior.</h4>
+
+      <h3>No Spamming or Self-Promotion</h3>
+      <h4>Avoid unnecessary messages or promoting other servers.</h4>
+
+      <h3>Follow Discord Guidelines</h3>
+      <h4>Abide by Discord's Community Guidelines.</h4>
+
+      <h3>Use Appropriate Channels</h3>
+      <h4>Stay on topic and post in the correct channels.</h4>
+
+      <h3>No Cheats or Exploits</h3>
+      <h4>Do not promote cheating or hacking.</h4>
+
+      <h3>Listen to Staff</h3>
+      <h4>Follow staff instructions. Use proper channels for complaints.</h4>
+
+      <h3>Privacy and Safety</h3>
+      <h4>Don't share personal info. Report suspicious behavior.</h4>
+    </div>
+
+    <div class="section">
+      <h2>Server Rules</h2>
+      <h3>No Hacking or Cheating</h3>
+      <h4>Immediate ban for hacks or exploits.</h4>
+
+      <h3>Fair Play</h3>
+      <h4>No glitches or unfair advantages.</h4>
+
+      <h3>No Griefing</h3>
+      <h4>Respect others; no trolling or harassment.</h4>
+
+      <h3>No Spawn Camping</h3>
+      <h4>Give new spawns a fair chance.</h4>
+
+      <h3>No Impersonation</h3>
+      <h4>Don't pretend to be staff or other players.</h4>
+
+      <h3>Use Common Sense</h3>
+      <h4>If unsure about a rule, ask staff.</h4>
+
+      <h3>No Server Provocation</h3>
+      <h4>Don’t stir drama related to other servers. Zero tolerance.</h4>
+
+      <h3>Respectful Naming</h3>
+      <h4>No offensive or impersonating names. Violations may lead to bans.</h4>
+    </div>
+
+    <div class="section">
+      <h2>Connect with KKPP</h2>
+      <h3>Discord:</h3>
+      <h4><a href="https://discord.gg/4qpPGj6dxa" target="_blank">Join KKPP</a></h4>
+
+      <h3>FiveM Server:</h3>
+      <h4><a href="fivem://connect/play.kkpp.space:30120">Connect KKPP</a></h4>
+    </div>
+ 
+    <button onclick="scrollToTop()" id="scrollTopBtn" title="Go to top">↑</button>
+  </div>
+  <script language="JavaScript">
+       window.onload = function () {
+           document.addEventListener("contextmenu", function (e) {
+               e.preventDefault();
+           }, false);
+           document.addEventListener("keydown", function (e) {
+               //document.onkeydown = function(e) {
+              
+               if (e.ctrlKey && e.shiftKey && e.keyCode == 73) {
+                   disabledEvent(e);
+               }
+            
+               if (e.ctrlKey && e.shiftKey && e.keyCode == 74) {
+                   disabledEvent(e);
+               }
+               
+               if (e.keyCode == 83 && (navigator.platform.match("Mac") ? e.metaKey : e.ctrlKey)) {
+                   disabledEvent(e);
+               }
+               
+               if (e.ctrlKey && e.keyCode == 85) {
+                   disabledEvent(e);
+               }
+               
+               if (event.keyCode == 123) {
+                   disabledEvent(e);
+               }
+           }, false);
+           function disabledEvent(e) {
+               if (e.stopPropagation) {
+                   e.stopPropagation();
+               } else if (window.event) {
+                   window.event.cancelBubble = true;
+               }
+               e.preventDefault();
+               return false;
+           }
+       }
+       const scrollBtn = document.getElementById("scrollTopBtn");
+
+        window.onscroll = function () {
+            if (document.body.scrollTop > 300 || document.documentElement.scrollTop > 300) {
+                scrollBtn.classList.add("visible");
+            } else {
+                scrollBtn.classList.remove("visible");
+            }
+            };
+
+    function scrollToTop() {
+        window.scrollTo({
+            top: 0,
+            behavior: "smooth"
+        });
+        }
+  </script>
+</body>
+</html>
